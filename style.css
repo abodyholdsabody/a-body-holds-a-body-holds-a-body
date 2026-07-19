@@ -1,0 +1,155 @@
+html, body {
+    overflow: hidden;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+@font-face {
+    font-family: 'Solae';
+    src: url('media/fonts/solae.woff') format('woff2'), url('media/fonts/solae.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NewEdge666Light';
+    src: url('media/fonts/NewEdge666-LightRounded.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NewEdge666';
+    src: url('media/fonts/NewEdge666-RegularRounded.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+.carousel {
+    position: fixed;
+    top: 10vh;
+    left: 0vw;
+
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+    overflow-x: scroll;
+    overflow-y: hidden;
+
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel-item {
+    height: 100vh;
+    flex-shrink: 0;
+}
+
+#image img {
+    height: 80vh;
+    width: auto;
+    display: block;
+    object-fit: cover;
+}
+
+
+
+
+
+.scrolling-bar {
+    position: fixed;
+    top: 1vh;
+    left: 0vw;
+
+    width: 100vw;
+    height: 10vh;
+}
+
+.scrolling-track {
+    white-space: nowrap;
+}
+
+.scrolling-track span {    
+    color: black;
+
+    font-size: 10vh;
+    font-family: 'Solae', serif;
+    letter-spacing: -0.5vw;
+
+    text-transform: uppercase;
+}
+
+
+
+
+
+.credits {
+    display: block;
+    width: 33vw;
+    height: 8vh;
+
+    position: fixed;
+    text-align: center;
+    align-content: center;
+    top: 90vh;
+    left: 0vw;
+
+    font-size: 1.5vh;
+    font-family: 'NewEdge666', sans-serif;
+}
+
+.preorder {
+    display: block;
+    width: 33.333vw;
+    height: 8vh;
+
+    position: fixed;
+    text-align: center;
+    align-content: center;
+    top: 90vh;
+    left: 33.333vw;
+
+    font-size: 1.5vh;
+    font-family: 'NewEdge666', sans-serif;
+}
+
+.gallery {
+    display: block;
+    width: 33.333vw;
+    height: 8vh;
+
+    position: fixed;
+    text-align: center;
+    align-content: center;
+    top: 90vh;
+    left: 66.666vw;
+
+    font-size: 1.5vh;
+    font-family: 'NewEdge666', sans-serif;
+}
+
+.footer {
+    display: block;
+    width: 100vw;
+    height: 2vh;
+
+    position: fixed;
+    text-align: center;
+    align-content: center;
+    bottom: 1vh;
+
+    font-size: 1vh;
+    font-family: 'NewEdge666Light', sans-serif;
+}
