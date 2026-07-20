@@ -41,6 +41,30 @@ a:hover {
     font-display: swap;
 }
 
+#title {
+    font-size: 3vh;
+    font-family: 'Solae', serif;
+}
+
+#regular {
+    font-size: 1.5vh;
+    font-family: 'NewEdge666', sans-serif;
+}
+
+#light {
+    font-size: 1.5vh;
+    font-family: 'NewEdge666Light', sans-serif;
+}
+
+#lightItalic {
+    font-size: 1.5vh;
+    font-family: 'NewEdge666LightItalic', sans-serif;
+}
+
+
+
+
+
 .carousel {
     position: fixed;
     top: 10vh;
@@ -102,55 +126,6 @@ a:hover {
 
 
 
-.link1 {
-    display: block;
-    width: 33vw;
-    height: 8vh;
-
-    position: fixed;
-    text-align: center;
-    align-content: center;
-    top: 90vh;
-    left: 0vw;
-
-    font-size: 1.5vh;
-    font-family: 'NewEdge666', sans-serif;
-}
-
-.link2 {
-    display: block;
-    width: 33.333vw;
-    height: 8vh;
-
-    position: fixed;
-    text-align: center;
-    align-content: center;
-    top: 90vh;
-    left: 33.333vw;
-
-    font-size: 1.5vh;
-    font-family: 'NewEdge666', sans-serif;
-}
-
-.link3 {
-    display: block;
-    width: 33.333vw;
-    height: 8vh;
-
-    position: fixed;
-    text-align: center;
-    align-content: center;
-    top: 90vh;
-    left: 66.666vw;
-
-    font-size: 1.5vh;
-    font-family: 'NewEdge666', sans-serif;
-}
-
-
-
-
-
 .creditsList {
     display: block;
     height: 80vh;
@@ -199,35 +174,161 @@ a:hover {
     text-indent: 80vw;
 }
 
-#regular {
-    font-size: 1.5vh;
-    font-family: 'NewEdge666', sans-serif;
+
+
+
+
+.bookPreview {
+    display: block;
+    width: 50vw;
+    height: 80vh;
+
+    position: fixed;
+    top: 10vh;
+    align-content: center;
 }
 
-#light {
-    font-size: 1.5vh;
-    font-family: 'NewEdge666Light', sans-serif;
+.bookInfosArea {
+    display: block;
+    width: 40vw;
+    height: 80vh;
+
+    position: fixed;
+    top: 10vh;
+    left: 50vw;
+    align-content: center;
 }
 
-#lightItalic {
-    font-size: 1.5vh;
-    font-family: 'NewEdge666LightItalic', sans-serif;
+.shopRow{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 1vh;
+}
+
+.price {    
+    border: solid black 0.1vw;
+    background-color: black;
+    color: white;
+
+    padding-left: 0.25vw;
+    padding-right: 0.25vw;
+}
+
+.preorderButton {
+    border: solid black 0.1vw;
+    background-color: white;
+    color: black;
+
+    padding-left: 0.25vw;
+    padding-right: 0.25vw;
+}
+
+.bookInfos {
+    text-indent: 2vw;
 }
 
 
 
 
 
-.footer {
+.gallery {
     display: block;
     width: 100vw;
-    height: 2vh;
+    height: 80vh;
+
+    position: fixed;
+    top: 10vh;
+    text-align: center;
+    align-content: center;
+}
+
+
+
+
+
+.link1 {
+    display: block;
+    width: 33vw;
+    height: 8vh;
 
     position: fixed;
     text-align: center;
     align-content: center;
-    bottom: 1vh;
+    top: 90vh;
+    left: 0vw;
+
+    font-size: 1.5vh;
+    font-family: 'NewEdge666', sans-serif;
+}
+
+.link2 {
+    display: block;
+    width: 33.333vw;
+    height: 8vh;
+
+    position: fixed;
+    text-align: center;
+    align-content: center;
+    top: 90vh;
+    left: 33.333vw;
+
+    font-size: 1.5vh;
+    font-family: 'NewEdge666', sans-serif;
+}
+
+.link3 {
+    display: block;
+    width: 33.333vw;
+    height: 8vh;
+
+    position: fixed;
+    text-align: center;
+    align-content: center;
+    top: 90vh;
+    left: 66.666vw;
+
+    font-size: 1.5vh;
+    font-family: 'NewEdge666', sans-serif;
+}
+
+.footer {
+    display: block;
+    width: 100vw;
+    height: 3vh;
+
+    position: fixed;
+    text-align: center;
+    align-content: center;
+    top: 97vh;
 
     font-size: 1vh;
     font-family: 'NewEdge666Light', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1000px) {
+        .bookPreview {
+        width: 100vw;
+        height: 80vh;
+
+        top: 10vh;
+    }
+
+    .bookInfosArea {
+        display: block;
+        width: 90vw;
+        height: 80vh;
+
+        top: 10vh;
+        left: 5vw;
+    }
 }
