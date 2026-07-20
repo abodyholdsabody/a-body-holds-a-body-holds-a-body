@@ -20,6 +20,13 @@ a:hover {
     font-display: swap;
 }
 @font-face {
+    font-family: 'NewEdge666';
+    src: url('media/fonts/NewEdge666-RegularRounded.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
     font-family: 'NewEdge666Light';
     src: url('media/fonts/NewEdge666-LightRounded.otf') format('opentype');
     font-weight: 400;
@@ -27,8 +34,8 @@ a:hover {
     font-display: swap;
 }
 @font-face {
-    font-family: 'NewEdge666';
-    src: url('media/fonts/NewEdge666-RegularRounded.otf') format('opentype');
+    font-family: 'NewEdge666LightItalic';
+    src: url('media/fonts/NewEdge666-LightRoundedSlanted.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
@@ -95,7 +102,7 @@ a:hover {
 
 
 
-.credits {
+.link1 {
     display: block;
     width: 33vw;
     height: 8vh;
@@ -110,7 +117,7 @@ a:hover {
     font-family: 'NewEdge666', sans-serif;
 }
 
-.preorder {
+.link2 {
     display: block;
     width: 33.333vw;
     height: 8vh;
@@ -125,7 +132,7 @@ a:hover {
     font-family: 'NewEdge666', sans-serif;
 }
 
-.gallery {
+.link3 {
     display: block;
     width: 33.333vw;
     height: 8vh;
@@ -139,6 +146,77 @@ a:hover {
     font-size: 1.5vh;
     font-family: 'NewEdge666', sans-serif;
 }
+
+
+
+
+
+.creditsList {
+    display: block;
+    height: 80vh;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    position: fixed;
+    top: 10vh;
+    left: 0vw;
+}
+
+.indent0 {
+    text-indent: 0vw;
+}
+
+.indent1 {
+    text-indent: 10vw;
+}
+
+.indent2 {
+    text-indent: 20vw;
+}
+
+.indent3 {
+    text-indent: 30vw;
+}
+
+.indent4 {
+    text-indent: 40vw;
+}
+
+.indent5 {
+    text-indent: 50vw;
+}
+
+.indent6 {
+    text-indent: 60vw;
+}
+
+.indent7 {
+    text-indent: 70vw;
+}
+
+.indent8 {
+    text-indent: 80vw;
+}
+
+#regular {
+    font-size: 1.5vh;
+    font-family: 'NewEdge666', sans-serif;
+}
+
+#light {
+    font-size: 1.5vh;
+    font-family: 'NewEdge666Light', sans-serif;
+}
+
+#lightItalic {
+    font-size: 1.5vh;
+    font-family: 'NewEdge666LightItalic', sans-serif;
+}
+
+
+
+
 
 .footer {
     display: block;
