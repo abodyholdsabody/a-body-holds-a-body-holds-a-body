@@ -186,6 +186,7 @@ a:hover {
     position: fixed;
     top: 10vh;
     align-content: center;
+    object-fit: cover;
 }
 
 .bookInfosArea {
