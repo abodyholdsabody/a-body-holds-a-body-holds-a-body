@@ -71,7 +71,7 @@ a:hover {
     left: 0vw;
 
     display: flex;
-    height: 80vh;
+    height: 78vh;
     width: 100vw;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -92,7 +92,7 @@ a:hover {
     height: 80vh;
     width: auto;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 
@@ -253,12 +253,12 @@ a:hover {
 .link1 {
     display: block;
     width: 33vw;
-    height: 8vh;
+    height: 7vh;
 
     position: fixed;
     text-align: center;
     align-content: center;
-    top: 90vh;
+    top: 88vh;
     left: 0vw;
 
     font-size: 1.5vh;
@@ -268,12 +268,12 @@ a:hover {
 .link2 {
     display: block;
     width: 33.333vw;
-    height: 8vh;
+    height: 7vh;
 
     position: fixed;
     text-align: center;
     align-content: center;
-    top: 90vh;
+    top: 88vh;
     left: 33.333vw;
 
     font-size: 1.5vh;
@@ -283,12 +283,12 @@ a:hover {
 .link3 {
     display: block;
     width: 33.333vw;
-    height: 8vh;
+    height: 7vh;
 
     position: fixed;
     text-align: center;
     align-content: center;
-    top: 90vh;
+    top: 88vh;
     left: 66.666vw;
 
     font-size: 1.5vh;
@@ -298,12 +298,12 @@ a:hover {
 .footer {
     display: block;
     width: 100vw;
-    height: 3vh;
+    height: 4vh;
 
     position: fixed;
     text-align: center;
     align-content: center;
-    top: 97vh;
+    top: 95vh;
 
     font-size: 1vh;
     font-family: 'NewEdge666Light', sans-serif;
@@ -329,11 +329,39 @@ a:hover {
 
 
 @media (max-width: 1000px) {
-        .bookPreview {
+    .carousel {
+        height: 75vh;
+    }
+
+    #image img {
+        height: 75vh;
+    }
+
+    .bookPreview {
         width: 100vw;
         height: 80vh;
 
         top: 10vh;
+    }
+
+    .link1 {
+        height: 8vh;
+        top: 85vh;
+    }
+
+    .link2 {
+        height: 8vh;
+        top: 85vh;
+    }
+
+    .link3 {
+        height: 8vh;
+        top: 85vh;
+    }
+
+    .footer {
+        height: 3vh;
+        top: 92vh;
     }
 
     .bookInfosArea {
