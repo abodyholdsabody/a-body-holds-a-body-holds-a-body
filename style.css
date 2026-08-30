@@ -328,13 +328,13 @@ a:hover {
 
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .carousel {
-        height: 75vh;
+        height: 70vh;
     }
 
     #image img {
-        height: 75vh;
+        height: 70vh;
     }
 
     .bookPreview {
@@ -345,23 +345,23 @@ a:hover {
     }
 
     .link1 {
-        height: 8vh;
-        top: 85vh;
+        height: 15vh;
+        top: 80vh;
     }
 
     .link2 {
-        height: 8vh;
-        top: 85vh;
+        height: 15vh;
+        top: 80vh;
     }
 
     .link3 {
-        height: 8vh;
-        top: 85vh;
+        height: 15vh;
+        top: 80vh;
     }
 
     .footer {
-        height: 3vh;
-        top: 92vh;
+        height: 5vh;
+        top: 95vh;
     }
 
     .bookInfosArea {
